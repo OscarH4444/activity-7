@@ -59,3 +59,37 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# 🏫 Sistema de Gestión de Escuela de Robótica
+
+## 📌 Descripción
+Este es un sistema desarrollado en Laravel 7 para gestionar cursos, usuarios y kits de robótica en una escuela. Permite a los administradores gestionar usuarios, a los docentes administrar cursos y a los estudiantes inscribirse en cursos disponibles.
+
+## 🗂️ Tecnologías Utilizadas
+- Laravel 7
+- PHP 8
+- MySQL
+- FakerPHP (para datos de prueba)
+- Bootstrap (para la interfaz)
+
+## 📊 Diagrama ER
+A continuación, se muestra el diagrama de la base de datos del sistema:
+
+![Diagrama ER](ruta/a/tu/diagrama.png)
+
+_(Nota: Guarda la imagen del diagrama en la carpeta `public/` de tu proyecto y usa `![Diagrama ER](public/diagrama.png)` para mostrarla en el README)._
+
+## 🚀 Instalación
+1. Clona el repositorio  
+   ```sh
+   git clone https://github.com/tu_usuario/tu_proyecto.git
+
+---
+
+## **📌 3. Subir el Archivo Actualizado a GitHub**
+Después de modificar el `README.md`, guárdalo y súbelo a GitHub con estos comandos:  
+
+```sh
+git add README.md
+git commit -m "Actualización del README con nombre, descripción y diagrama ER"
+git push origin main
+
