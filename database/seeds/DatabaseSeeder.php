@@ -1,16 +1,22 @@
 <?php
 
+namespace Database\Seeders;
+
 use Illuminate\Database\Seeder;
+use App\Models\Course;
 
 class DatabaseSeeder extends Seeder
 {
-    /**
-     * Seed the application's database.
-     *
-     * @return void
-     */
     public function run()
     {
-        // $this->call(UserSeeder::class);
+        // Llamar a los seeders de usuarios y kits de robótica
+        $this->call([
+            UsersTableSeeder::class,
+            RoboticsKitsTableSeeder::class,
+        ]);
+
+        // Crear 100 cursos aleatorios con la Factory
+        Course::factory(100)->create();
     }
 }
+
